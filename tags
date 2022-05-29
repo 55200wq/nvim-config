@@ -1,0 +1,300 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$GTAGSCONF	vim/tag.vim	/^let $GTAGSCONF='\/usr\/local\/share\/gtags\/gtags.conf'$/;"	v
+$GTAGSLABEL	vim/tag.vim	/^let $GTAGSLABEL='native-pygments'$/;"	v
+/	scripts/gnome.conf	/^[\/]$/;"	s
+0	.lintmdrc.json	/^          "html",$/;"	s	array:rules.no-long-code.1.exclude
+0	.lintmdrc.json	/^      0,$/;"	n	array:rules.no-long-code
+0	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+0	coc-settings.json	/^    "rootPatterns": ["compile_flags.txt", "compile_commands.json"],$/;"	s	array:languageserver.clangd.rootPatterns
+0	coc-settings.json	/^    "youdao"$/;"	s	array:translator.engines
+1	.lintmdrc.json	/^          "json",$/;"	s	array:rules.no-long-code.1.exclude
+1	.lintmdrc.json	/^      {$/;"	o	array:rules.no-long-code
+1	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+1	coc-settings.json	/^    "rootPatterns": ["compile_flags.txt", "compile_commands.json"],$/;"	s	array:languageserver.clangd.rootPatterns
+2	.lintmdrc.json	/^          "yml"$/;"	s	array:rules.no-long-code.1.exclude
+2	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+2022	docs/nvim.md	/^### 2022$/;"	S
+2022 年 vim 的 C/C++ 配置	docs/nvim.md	/^# 2022 年 vim 的 C\/C++ 配置$/;"	c
+3	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+4	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+5	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	s	array:languageserver.clangd.filetypes
+;	vim/misc.vim	/^nmap ; <Plug>(coc-smartf-repeat)$/;"	m
+<C-b>	vim/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\</;"	m
+<C-b>	vim/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-b>	vim/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-f>	vim/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\</;"	m
+<C-f>	vim/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-f>	vim/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<TAB>	vim/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<cr>	vim/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>d	init.vim	/^map <leader>d "+d$/;"	m
+<leader>p	init.vim	/^map <leader>p "+p$/;"	m
+<leader>q	init.vim	/^noremap <leader>q q$/;"	m
+<leader>y	init.vim	/^map <leader>y "+y$/;"	m
+Awesome	docs/awesome.md	/^# Awesome$/;"	c
+Changelog	docs/nvim.md	/^## Changelog$/;"	s
+F	vim/misc.vim	/^nmap F <Plug>(coc-smartf-backward)$/;"	m
+FAQ	docs/nvim.md	/^## FAQ$/;"	s
+GetFilePath	vim/debug.vim	/^command! GetFilePath call GetFilePath()$/;"	c
+GetFilePath	vim/debug.vim	/^fun! GetFilePath()$/;"	f
+Gnome terminal	docs/alacritty.md	/^### Gnome terminal$/;"	S
+K	vim/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+Linux 输入法配置	docs/rime.md	/^# Linux 输入法配置$/;"	c
+Lua.telemetry.enable	coc-settings.json	/^  "Lua.telemetry.enable": true$/;"	b
+Nix 配置	docs/nix.md	/^# Nix 配置$/;"	c
+Outline	vim/misc.vim	/^func! Outline()$/;"	f
+Preivew	vim/misc.vim	/^func! Preivew()$/;"	f
+QuickRun	vim/misc.vim	/^func! QuickRun()$/;"	f
+Redir	vim/debug.vim	/^command! -nargs=1 -complete=command -bar -range Redir silent call Redir(<q-args>, <range>, <line/;"	c
+Redir	vim/debug.vim	/^function! Redir(cmd, rng, start, end)$/;"	f
+Smartf	vim/misc.vim	/^augroup Smartf$/;"	a
+TODO	docs/tig.md	/^## TODO$/;"	s
+TrimWhitespace	vim/debug.vim	/^command! TrimWhitespace call TrimWhitespace()$/;"	c
+TrimWhitespace	vim/debug.vim	/^fun! TrimWhitespace()$/;"	f
+[可选] 安装 github cli	docs/nvim.md	/^### [可选] 安装 github cli$/;"	S
+action	scripts/gnome.conf	/^exit-action='close'$/;"	k	section:/
+b	vim/coc.vim	/^nmap <silent> b <Plug>(coc-ci-b)$/;"	m
+background	scripts/gnome.conf	/^use-transparent-background=true$/;"	k	section:/
+bind generic oF	scripts/tigrc.conf	/^bind generic oF :toggle file-filter$/;"	k
+bind generic oa	scripts/tigrc.conf	/^bind generic oa :toggle author$/;"	k
+bind generic od	scripts/tigrc.conf	/^bind generic od :toggle date$/;"	k
+bind generic of	scripts/tigrc.conf	/^bind generic of :toggle file-name$/;"	k
+bind generic og	scripts/tigrc.conf	/^bind generic og :toggle line-graphics$/;"	k
+bind generic oi	scripts/tigrc.conf	/^bind generic oi :toggle id$/;"	k
+bind generic on	scripts/tigrc.conf	/^bind generic on :toggle line-number$/;"	k
+bind generic oo	scripts/tigrc.conf	/^bind generic oo :toggle sort-order$/;"	k
+bind generic op	scripts/tigrc.conf	/^bind generic op :toggle ignore-space$/;"	k
+bind generic or	scripts/tigrc.conf	/^bind generic or :toggle commit-title-refs$/;"	k
+bind generic os	scripts/tigrc.conf	/^bind generic os :toggle sort-field$/;"	k
+bind generic ot	scripts/tigrc.conf	/^bind generic ot :toggle commit-title-overflow$/;"	k
+blog	docs/nvim.md	/^## blog$/;"	s
+bright	scripts/gnome.conf	/^bold-is-bright=true$/;"	k	section:/
+buffer	docs/nvim.md	/^### buffer$/;"	S
+checkhealth 检查	docs/nvim.md	/^### checkhealth 检查$/;"	S
+clangd	coc-settings.json	/^  "clangd": {$/;"	o	object:languageserver
+color	scripts/gnome.conf	/^background-color='rgb(0,43,54)'$/;"	k	section:/
+color	scripts/gnome.conf	/^foreground-color='rgb(131,148,150)'$/;"	k	section:/
+colors	scripts/gnome.conf	/^use-theme-colors=false$/;"	k	section:/
+command	coc-settings.json	/^    "command": "clangd",$/;"	s	object:languageserver.clangd
+command	scripts/gnome.conf	/^custom-command='\/usr\/bin\/zsh  -l -c "tmux attach || tmux"'$/;"	k	section:/
+command	scripts/gnome.conf	/^use-custom-command=true$/;"	k	section:/
+config	lua/plugins.lua	/^      config = function()$/;"	f
+copy mode	docs/tmux.md	/^## copy mode$/;"	s
+diagnostic-languageserver.filetypes	coc-settings.json	/^  "diagnostic-languageserver.filetypes": {$/;"	o
+diagnostic-languageserver.formatFiletypes	coc-settings.json	/^  "diagnostic-languageserver.formatFiletypes": {$/;"	o
+directory	scripts/gnome.conf	/^preserve-working-directory='always'$/;"	k	section:/
+error_msg	plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+exclude	.lintmdrc.json	/^        "exclude": [$/;"	a	object:rules.no-long-code.1
+excludeFiles	.lintmdrc.json	/^  "excludeFiles": [],$/;"	a
+f	vim/misc.vim	/^nmap f <Plug>(coc-smartf-forward)$/;"	m
+file tree	docs/nvim.md	/^### file tree$/;"	S
+filetypes	coc-settings.json	/^    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]$/;"	a	object:languageserver.clangd
+font	scripts/gnome.conf	/^font='Hasklug Nerd Font Bold 11'$/;"	k	section:/
+font	scripts/gnome.conf	/^use-system-font=false$/;"	k	section:/
+g:airline#extensions#whitespace#enabled	vim/airline.vim	/^let g:airline#extensions#whitespace#enabled = 1$/;"	v
+g:airline#extensions#whitespace#show_message	vim/airline.vim	/^let g:airline#extensions#whitespace#show_message = 0$/;"	v
+g:airline_left_alt_sep	vim/airline.vim	/^let g:airline_left_alt_sep = ''$/;"	v
+g:airline_left_sep	vim/airline.vim	/^let g:airline_left_sep = ''$/;"	v
+g:airline_right_alt_sep	vim/airline.vim	/^let g:airline_right_alt_sep = ''$/;"	v
+g:airline_right_sep	vim/airline.vim	/^let g:airline_right_sep = ''$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols = {}$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.branch = ''$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.colnr = ' :'$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.dirty='⚡'$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.linenr = ' :'$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.maxlinenr = '☰ '$/;"	v
+g:airline_symbols	vim/airline.vim	/^let g:airline_symbols.readonly = ''$/;"	v
+g:airline_theme	vim/airline.vim	/^let g:airline_theme="base16"$/;"	v
+g:auto_session_pre_restore_cmds	vim/misc.vim	/^let g:auto_session_pre_restore_cmds = ["BookmarkLoad .vim-bookmarks"]$/;"	v
+g:auto_session_pre_save_cmds	vim/misc.vim	/^let g:auto_session_pre_save_cmds = ["NvimTreeClose", "BookmarkSave.vim-bookmarks"]$/;"	v
+g:bookmark_auto_close	vim/misc.vim	/^let g:bookmark_auto_close = 1$/;"	v
+g:bookmark_no_default_key_mappings	vim/misc.vim	/^let g:bookmark_no_default_key_mappings = 1$/;"	v
+g:bookmark_save_per_working_dir	vim/misc.vim	/^let g:bookmark_save_per_working_dir = 1$/;"	v
+g:everforest_background	init.vim	/^let g:everforest_background = 'hard'$/;"	v
+g:floaterm_keymap_new	vim/misc.vim	/^let g:floaterm_keymap_new    = '<C-n>'$/;"	v
+g:floaterm_keymap_prev	vim/misc.vim	/^let g:floaterm_keymap_prev   = '<C-p>'$/;"	v
+g:floaterm_keymap_toggle	vim/misc.vim	/^let g:floaterm_keymap_toggle = '<C-t>'$/;"	v
+g:git_messenger_always_into_popup	vim/misc.vim	/^let g:git_messenger_always_into_popup = v:true$/;"	v
+g:git_messenger_no_default_mappings	vim/misc.vim	/^let g:git_messenger_no_default_mappings = v:true$/;"	v
+g:gutentags_auto_add_gtags_cscope	vim/tag.vim	/^let g:gutentags_auto_add_gtags_cscope = 0$/;"	v
+g:gutentags_cache_dir	vim/tag.vim	/^let g:gutentags_cache_dir = s:vim_tags$/;"	v
+g:gutentags_ctags_extra_args	vim/tag.vim	/^let g:gutentags_ctags_extra_args += ['--c++-kinds=+px']$/;"	v
+g:gutentags_ctags_extra_args	vim/tag.vim	/^let g:gutentags_ctags_extra_args += ['--c-kinds=+px']$/;"	v
+g:gutentags_ctags_extra_args	vim/tag.vim	/^let g:gutentags_ctags_extra_args += ['--output-format=e-ctags']$/;"	v
+g:gutentags_ctags_extra_args	vim/tag.vim	/^let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']$/;"	v
+g:gutentags_ctags_tagfile	vim/tag.vim	/^let g:gutentags_ctags_tagfile = '.tags' "$/;"	v
+g:gutentags_define_advanced_commands	vim/tag.vim	/^let g:gutentags_define_advanced_commands=1 $/;"	v
+g:gutentags_modules	vim/tag.vim	/^        let g:gutentags_modules += ['gtags_cscope']$/;"	v
+g:gutentags_modules	vim/tag.vim	/^let g:gutentags_modules = []$/;"	v
+g:gutentags_plus_switch	vim/tag.vim	/^let g:gutentags_plus_switch = 1 " 搜索后将焦点更改为快速可恢复窗口$/;"	v
+g:gutentags_project_root	vim/tag.vim	/^let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']$/;"	v
+g:mapleader	init.vim	/^let g:mapleader = ','$/;"	v
+g:markdown_fenced_languages	vim/misc.vim	/^let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'c', 'cpp', 'diff']$/;"	v
+g:markdown_minlines	vim/misc.vim	/^let g:markdown_minlines = 200$/;"	v
+g:mkdp_auto_close	vim/misc.vim	/^let g:mkdp_auto_close = 0$/;"	v
+g:startify_change_to_dir	vim/startify.vim	/^let g:startify_change_to_dir = 0$/;"	v
+g:startify_custom_header	vim/startify.vim	/^let g:startify_custom_header = [$/;"	v
+g:startify_list_order	vim/startify.vim	/^let g:startify_list_order = [$/;"	v
+g:table_mode_corner	vim/misc.vim	/^let g:table_mode_corner='|'$/;"	v
+g:tex_conceal	vim/misc.vim	/^let g:tex_conceal = "" " 关闭所有隐藏设置$/;"	v
+g:vim_markdown_folding_disabled	vim/misc.vim	/^let g:vim_markdown_folding_disabled = 1$/;"	v
+g:vimtex_view_method	vim/misc.vim	/^let g:vimtex_view_method = 'zathura'$/;"	v
+g:vista_default_executive	vim/misc.vim	/^let g:vista_default_executive = 'coc'$/;"	v
+g:vista_finder_alternative_executives	vim/misc.vim	/^let g:vista_finder_alternative_executives = 'ctags'$/;"	v
+g:vista_sidebar_position	vim/misc.vim	/^let g:vista_sidebar_position = "vertical topleft"$/;"	v
+g:winresizer_keycode_cancel	vim/misc.vim	/^let g:winresizer_keycode_cancel = 113$/;"	v
+g:winresizer_start_key	vim/misc.vim	/^let g:winresizer_start_key = 'ca'$/;"	v
+gd	vim/coc.vim	/^nmap <silent> <nowait> gd : <C-u>Telescope coc definitions<cr>$/;"	m
+gh	vim/coc.vim	/^nmap <silent> <nowait> gh : <C-u>Telescope coc declarations<cr>$/;"	m
+git 集成	docs/nvim.md	/^### git 集成$/;"	S
+git.addGBlameToVirtualText	coc-settings.json	/^  "git.addGBlameToVirtualText": false,$/;"	b
+git.addedSign.hlGroup	coc-settings.json	/^  "git.addedSign.hlGroup": "GitGutterAdd",$/;"	s
+git.changeRemovedSign.hlGroup	coc-settings.json	/^  "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",$/;"	s
+git.changedSign.hlGroup	coc-settings.json	/^  "git.changedSign.hlGroup": "GitGutterChange",$/;"	s
+git.removedSign.hlGroup	coc-settings.json	/^  "git.removedSign.hlGroup": "GitGutterDelete",$/;"	s
+git.topRemovedSign.hlGroup	coc-settings.json	/^  "git.topRemovedSign.hlGroup": "GitGutterDelete",$/;"	s
+git.virtualTextPrefix	coc-settings.json	/^  "git.virtualTextPrefix": "👋 ",$/;"	s
+github 集成	docs/nvim.md	/^### github 集成$/;"	S
+gk	vim/coc.vim	/^nmap <silent> <nowait> gk : <C-u>Telescope coc implementations<cr>$/;"	m
+gr	vim/coc.vim	/^nmap <silent> <nowait> gr : <C-u>Telescope coc references_used<cr>$/;"	m
+gx	vim/misc.vim	/^nmap gx <Plug>(openbrowser-smart-search)$/;"	m
+gx	vim/misc.vim	/^vmap gx <Plug>(openbrowser-smart-search)$/;"	m
+gy	vim/coc.vim	/^nmap <silent> <nowait> gy : <C-u>Telescope coc type_definitions<cr>$/;"	m
+highlight_yank	init.vim	/^augroup highlight_yank$/;"	a
+https://github.com/nvm-sh/nvm	docs/nvim.md	/^# https:\/\/github.com\/nvm-sh\/nvm$/;"	c
+indent	lua/statusline.lua	/^local function indent()$/;"	f
+j	scripts/tigrc.conf	/^bind generic @j :\/^@@$/;"	k
+k	scripts/tigrc.conf	/^bind generic @k :?^@@$/;"	k
+languageserver	coc-settings.json	/^ "languageserver": {$/;"	o
+length	.lintmdrc.json	/^        "length": 100,$/;"	n	object:rules.no-long-code.1
+markdown 集成	docs/nvim.md	/^### markdown 集成$/;"	S
+mygroup	vim/coc.vim	/^augroup mygroup$/;"	a
+name	scripts/gnome.conf	/^visible-name='martins3'$/;"	k	section:/
+no-empty-code	.lintmdrc.json	/^    "no-empty-code": 1,$/;"	n	object:rules
+no-long-code	.lintmdrc.json	/^    "no-long-code": [$/;"	a	object:rules
+numbers	lua/buffer-config.lua	/^    numbers = function(opts)$/;"	f
+options	scripts/tigrc.conf	/^set main-options = -n 1000$/;"	k
+order	scripts/tigrc.conf	/^set commit-order = default$/;"	k
+palette	scripts/gnome.conf	/^palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)'/;"	k	section:/
+percent	scripts/gnome.conf	/^background-transparency-percent=16$/;"	k	section:/
+rootPatterns	coc-settings.json	/^    "rootPatterns": ["compile_flags.txt", "compile_commands.json"],$/;"	a	object:languageserver.clangd
+rules	.lintmdrc.json	/^  "rules": {$/;"	o
+s:check_back_space	vim/coc.vim	/^function! s:check_back_space() abort$/;"	f
+s:coc_extensions	vim/coc.vim	/^let s:coc_extensions = [$/;"	v
+s:core_conf_files	init.vim	/^let s:core_conf_files = [$/;"	v
+s:show_documentation	vim/coc.vim	/^function! s:show_documentation()$/;"	f
+s:vim_tags	vim/tag.vim	/^let s:vim_tags = expand('~\/.cache\/tags')$/;"	v
+save_profiles	plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+sh	coc-settings.json	/^    "sh": "shellcheck"$/;"	s	object:diagnostic-languageserver.filetypes
+sh	coc-settings.json	/^    "sh": "shfmt"$/;"	s	object:diagnostic-languageserver.formatFiletypes
+shell	scripts/gnome.conf	/^login-shell=true$/;"	k	section:/
+smartf.jumpOnTrigger	coc-settings.json	/^  "smartf.jumpOnTrigger": false,$/;"	b
+smartf.wordJump	coc-settings.json	/^"smartf.wordJump": false,$/;"	b
+style fg	scripts/tmux.conf	/^setw -g window-status-current-style fg=black,bg=yellow$/;"	k
+sumneko-lua.enableNvimLuaDev	coc-settings.json	/^  "sumneko-lua.enableNvimLuaDev": true,$/;"	b
+tig 配置	docs/tig.md	/^# tig 配置$/;"	c
+time	plugin/packer_compiled.lua	/^    time = function(chunk, start) end$/;"	f
+time	plugin/packer_compiled.lua	/^    time = function(chunk, start)$/;"	f
+trailing_space	lua/statusline.lua	/^local function trailing_space()$/;"	f
+translator.engines	coc-settings.json	/^ "translator.engines": [$/;"	a
+transparency	scripts/gnome.conf	/^use-theme-transparency=false$/;"	k	section:/
+try_loadstring	plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
+vim cmdline	docs/nvim.md	/^### vim cmdline$/;"	S
+vim 中自动切换输入法	docs/rime.md	/^## vim 中自动切换输入法$/;"	s
+vim 的小技巧	docs/nvim.md	/^## vim 的小技巧$/;"	s
+w	vim/coc.vim	/^nmap <silent> w <Plug>(coc-ci-w)$/;"	m
+window	docs/nvim.md	/^### window$/;"	S
+x	vim/ccls.vim	/^noremap x <Nop>$/;"	m
+xC	vim/ccls.vim	/^nn <silent> xC :call CocLocations('ccls','$ccls\/call',{'callee':v:true})<cr>$/;"	m
+xD	vim/ccls.vim	/^nn <silent> xD :call CocLocations('ccls','$ccls\/inheritance',{'derived':v:true,'levels':3})<cr>$/;"	m
+xV	vim/ccls.vim	/^nn <silent> xV :call CocLocations('ccls','$ccls\/vars',{'kind':1})<cr>$/;"	m
+xb	vim/ccls.vim	/^nn <silent> xb :call CocLocations('ccls','$ccls\/inheritance')<cr>$/;"	m
+xb	vim/ccls.vim	/^nn <silent> xb :call CocLocations('ccls','$ccls\/inheritance',{'levels':3})<cr>$/;"	m
+xc	vim/ccls.vim	/^nn <silent> xc :call CocLocations('ccls','$ccls\/call')<cr>$/;"	m
+xd	vim/ccls.vim	/^nn <silent> xd :call CocLocations('ccls','$ccls\/inheritance',{'derived':v:true})<cr>$/;"	m
+xf	vim/ccls.vim	/^nn <silent> xf :call CocLocations('ccls','$ccls\/member',{'kind':3})<cr>$/;"	m
+xh	vim/ccls.vim	/^nn <silent> xh :call CocLocations('ccls','$ccls\/navigate',{'direction':'U'})<cr>$/;"	m
+xj	vim/ccls.vim	/^nn <silent> xj :call CocLocations('ccls','$ccls\/navigate',{'direction':'R'})<cr>$/;"	m
+xk	vim/ccls.vim	/^nn <silent> xk :call CocLocations('ccls','$ccls\/navigate',{'direction':'L'})<cr>$/;"	m
+xl	vim/ccls.vim	/^nn <silent> xl :call CocLocations('ccls','$ccls\/navigate',{'direction':'D'})<cr>$/;"	m
+xm	vim/ccls.vim	/^nn <silent> xm :call CocLocations('ccls','$ccls\/member')<cr>$/;"	m
+xs	vim/ccls.vim	/^nn <silent> xs :call CocLocations('ccls','$ccls\/member',{'kind':2})<cr>$/;"	m
+xt	vim/ccls.vim	/^nmap <silent> xt <Plug>(coc-type-definition)<cr>$/;"	m
+xv	vim/ccls.vim	/^nn <silent> xv :call CocLocations('ccls','$ccls\/vars')<cr>$/;"	m
+xx	vim/ccls.vim	/^nn xx x$/;"	m
+⚙ Install	readme.md	/^## ⚙ Install$/;"	s
+一些小技巧	docs/tmux.md	/^## 一些小技巧$/;"	s
+一键注释代码	docs/nvim.md	/^### 一键注释代码$/;"	S
+一键运行代码	docs/nvim.md	/^### 一键运行代码$/;"	S
+丝般顺滑: async	docs/nvim.md	/^## 丝般顺滑: async$/;"	s
+为什么使用 coc.nvim	docs/nvim.md	/^## 为什么使用 coc.nvim$/;"	s
+为什么应该使用 neovim 而不是 vim	docs/nvim.md	/^## 为什么应该使用 neovim 而不是 vim$/;"	s
+主题	docs/nvim.md	/^## 主题$/;"	s
+代码段	docs/nvim.md	/^### 代码段$/;"	S
+使用 neovim 写毕业论文	docs/latex.md	/^# 使用 neovim 写毕业论文$/;"	c
+值得一看的配置	docs/nvim.md	/^## 值得一看的配置$/;"	s
+值得关注的插件	docs/nvim.md	/^## 值得关注的插件$/;"	s
+先用起来再说	docs/tmux.md	/^## 先用起来再说$/;"	s
+全角英文和半角英文	docs/rime.md	/^## 全角英文和半角英文$/;"	s
+关于如何入门 vim	docs/nvim.md	/^## 关于如何入门 vim$/;"	s
+其他的记录	docs/alacritty.md	/^## 其他的记录$/;"	s
+前言	docs/nvim.md	/^## 前言$/;"	s
+升级	docs/nvim.md	/^## 升级$/;"	s
+参考 && TODO	docs/rime.md	/^## 参考 && TODO$/;"	s
+基本操作	docs/nvim.md	/^## 基本操作$/;"	s
+复制粘贴	docs/nvim.md	/^### 复制粘贴$/;"	S
+如何写 slides 啊	docs/latex.md	/^## 如何写 slides 啊$/;"	s
+如何写伪代码	docs/latex.md	/^## 如何写伪代码$/;"	s
+字符串搜索和替换	docs/nvim.md	/^### 字符串搜索和替换$/;"	S
+学习	docs/nvim.md	/^## 学习$/;"	s
+安装	docs/nvim.md	/^## 安装$/;"	s
+安装	docs/rime.md	/^## 安装$/;"	s
+安装 bear	docs/nvim.md	/^### 安装 bear$/;"	S
+安装 ccls	docs/nvim.md	/^### 安装 ccls$/;"	S
+安装 ccls 的依赖 https://github.com/MaskRay/ccls/wiki/Build	docs/nvim.md	/^# 安装 ccls 的依赖 https:\/\/github.com\/MaskRay\/ccls\/wiki\/Build$/;"	c
+安装 neovim 的各种依赖 https://github.com/neovim/neovim/wiki/Building-Neovim#build-prerequisites	docs/nvim.md	/^# 安装 neovim 的各种依赖 https:\/\/github.com\/neovim\/neovim\/wiki\/Building-Neovim#buil/;"	c
+安装 nerdfonts	docs/nvim.md	/^### 安装 nerdfonts$/;"	S
+安装 nvim	docs/nvim.md	/^### 安装 nvim$/;"	S
+安装 yarn 和 Node.js	docs/nvim.md	/^### 安装 yarn 和 Node.js$/;"	S
+安装包管理器 Packer	docs/nvim.md	/^### 安装包管理器 Packer$/;"	S
+安装各种依赖	docs/nvim.md	/^### 安装各种依赖$/;"	S
+安装本配置	docs/nvim.md	/^### 安装本配置$/;"	S
+定义和引用	docs/nvim.md	/^### 定义和引用$/;"	S
+定制 statusline	docs/tmux.md	/^## 定制 statusline$/;"	s
+导航	docs/nvim.md	/^### 导航$/;"	S
+插件	docs/tmux.md	/^## 插件$/;"	s
+文档	docs/nvim.md	/^### 文档$/;"	S
+智能高亮: treesitter	docs/nvim.md	/^## 智能高亮: treesitter$/;"	s
+本配置源代码解释	docs/nvim.md	/^## 本配置源代码解释$/;"	s
+极简 Alacritty 配置	docs/alacritty.md	/^## 极简 Alacritty 配置$/;"	s
+极简 Tmux 配置	docs/tmux.md	/^# 极简 Tmux 配置$/;"	c
+格式化	docs/nvim.md	/^### 格式化$/;"	S
+注释	docs/nvim.md	/^### 注释$/;"	S
+消除 ucasthesis 上 的所有的 warning	docs/latex.md	/^## 消除 ucasthesis 上 的所有的 warning$/;"	s
+添加配置	docs/rime.md	/^## 添加配置$/;"	s
+符号搜索	docs/nvim.md	/^### 符号搜索$/;"	S
+终极解决方案: lsp	docs/nvim.md	/^## 终极解决方案: lsp$/;"	s
+终端	docs/nvim.md	/^### 终端$/;"	S
+背景	docs/nvim.md	/^## 背景$/;"	s
+自动补全	docs/nvim.md	/^### 自动补全$/;"	S
+自定义命令	docs/tig.md	/^## 自定义命令$/;"	s
+衍生	docs/nvim.md	/^## 衍生$/;"	s
+设置皮肤	docs/rime.md	/^## 设置皮肤$/;"	s
+设置简体	docs/rime.md	/^## 设置简体$/;"	s
+调试 vim 配置	docs/nvim.md	/^## 调试 vim 配置$/;"	s
+调试集成	docs/nvim.md	/^### 调试集成$/;"	S
+退出	docs/nvim.md	/^### 退出$/;"	S
+配合 vim 使用	docs/tig.md	/^## 配合 vim 使用$/;"	s
+配置一下 fcitx	docs/rime.md	/^## 配置一下 fcitx$/;"	s
+重启	docs/rime.md	/^## 重启$/;"	s
+重命名	docs/nvim.md	/^### 重命名$/;"	S
+默认常用操作	docs/tmux.md	/^## 默认常用操作$/;"	s
+📚 Document	readme.md	/^## 📚 Document$/;"	s
+📝 License	readme.md	/^## 📝 License$/;"	s
+🤝 Contributing	readme.md	/^## 🤝 Contributing$/;"	s
